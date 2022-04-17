@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 4fr 2fr;
+            grid-template-rows: repeat(3 2fr);
+            grid-gap:2rem;
+        }
+        .items{
+            background-color: rgb(214, 125, 52);
+            color: black;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        /* .items:first-child{
+            grid-column: 1 /span 2;
+        } */
+        .items:first-child{
+         /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;  */
+         grid-column: 1 / span 3;
+        grid-row: 1 / span 3; 
+    }
+    .items:last-child{
+     grid-column: 1 /span 3;
+     /* grid-row: 1 /span 2; */
+     
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">I am content-1</div>
+        <div class="items">I am content-2</div>
+        <div class="items">I am content-3</div>
+        <div class="items">I am content-4</div>
+        <div class="items">I am content-5</div>
+        <div class="items">I am content-6</div>
+        <div class="items">I am content-7</div>
+        <div class="items">I am content-8</div>
+        <div class="items">I am content-9</div>
+        <div class="items">I am content-10</div>
+        <div class="items">I am content-11</div>
+        <div class="items">I am content-12</div>
+        <div class="items">I am content-13</div>
+        <div class="items">I am content-14</div>
+        <!-- <div class="items">I am content-15</div> -->
+        <!-- <div class="items">I am content-16</div>
+        <div class="items">I am content-17</div>
+        <div class="items">I am content-18</div>
+        <div class="items">I am content-19</div>
+        <div class="items">I am content-20</div>
+        <div class="items">I am content-21</div>
+        <div class="items">I am content-22</div>
+        <div class="items">I am content-23</div>
+        <div class="items">I am content-24</div>
+        <div class="items">I am content-25</div>
+        <div class="items">I am content-26</div>
+        <div class="items">I am content-27</div>
+        <div class="items">I am content-28</div>
+        <div class="items">I am content-29</div>
+        <div class="items">I am content-30</div> -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+h3{
+    /* background-image: url(https://images.pexels.com/photos/11165470/pexels-photo-11165470.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); */
+    /* background-size: 500px; */
+    color: blue;
+    background-color: bisque;
+}
+#raj{
+    /* background-image: url(https://images.pexels.com/photos/11165470/pexels-photo-11165470.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); */
+    background-size: 500px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/11165470/pexels-photo-11165470.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: 500px;
+}

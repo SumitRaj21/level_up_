@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Center</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Praise&family=Redressed&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            border: 0px;
+            background: url("gymPic.jpg");
+            font-family: 'Praise', cursive;
+        }
+
+        .header {
+
+            margin-top: 10px;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 10%;
+            text-align: center;
+
+        }
+
+        .left img {
+            width: 60px;
+            padding: 5px 30px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            display: block;
+            margin: 20px auto;
+            /* border: 2px solid yellow; */
+            width: 60%;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right:40px;
+            top: 20px;
+            /* border: 2px solid green; */
+            width: 10%;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .navbar li {
+            display: inline;
+            padding: 5px 45px;
+        }
+
+        .navbar a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .navbar li a.active,
+        .navbar li a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .right button {
+            display: inline-block;
+            margin: 5px 5px;
+            border: 2PX solid gray;
+            border-radius: 10px;
+            width: 50px;
+            font-family: 'Praise', cursive;
+            background-color:black;
+            color: white;
+            
+        }
+        .right button:hover{
+            color: gray;
+            cursor:pointer;
+        }
+        .container{
+            border:2px solid white;
+            width: 40%;
+            margin: 80px;
+            border-radius: 10px;
+            
+        }
+         .container button{
+            font-family: 'Praise', cursive;
+             display: block;
+             font-size: medium;
+             margin: 20px auto;
+             width: 50%;
+             padding: 5px;
+             border-radius: 10px;
+             cursor: pointer;
+         }       
+        .container h1{
+            text-align: center;
+        }
+        .form-group{
+            text-align: center;
+        }
+        .form-group input{
+            font-family: 'Praise', cursive;
+            display:block;
+            font-size: medium;
+            margin: 5px auto;
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid gray;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Logo.png" alt="There is logo">
+            <div>Shagun Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Patna</h1>
+        <div class="form-group">
+            <form action="sumit.php">
+         Name<input type="text" placeholder="Sumit Raj">
+         Age<input type="number" placeholder="24">
+         Mobile No<input type="text" placeholder="911751949">
+         Email<input type="email" placeholder="sumitraj2712@gmail.com">
+        </div>
+       
+    </form>
+    <button>Submit Now</button>
+    </div>
+    
+
+</body>
+
+</html>
