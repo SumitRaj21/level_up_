@@ -1,0 +1,23 @@
+#header{
+    padding: 100px;
+    width: 80vh;
+    box-shadow: 0 0 20px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    border-radius: 2px;
+    text-align: center;
+}
+div{
+    margin: auto;
+    background-color: aliceblue;
+}
+#text{
+    color: rgb(100, 210, 75);
+}
+body{
+    background-color: rgb(173, 56, 173);
+}
+#btn:hover{
+    background-color: red;
+    border: none;
+
+}
